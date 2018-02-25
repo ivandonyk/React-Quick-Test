@@ -1,0 +1,40 @@
+@import "../../../node_modules/loaders.css/loaders.min.css";
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: block;
+}
+
+.loader-fixed {
+  position: fixed;
+}
+
+.loader-overlay {
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+
+  .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    .ball-zig-zag-deflect > div,
+    .ball-pulse-sync > div,
+    .ball-scale-random > div,
+    .ball-rotate > div,
+    .ball-clip-rotate-multiple > div,
+    .ball-scale-ripple-multiple > div,
+    .ball-pulse-rise > div,
+    .ball-spin-fade-loader > div,
+    .ball-grid-beat > div,
+    .ball-pulse div {
+      background-color: #515375;
+    }
+  }
+}
