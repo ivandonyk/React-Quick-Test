@@ -43,7 +43,7 @@
     "axios": "^0.17.1",
     "classnames": "^2.2.5",
     "history": "^4.7.2",
-    "immutable": "^3.8.2",
+    "immutable": "^3.8.4",
     "jquery": "^3.2.1",
     "loaders.css": "^0.1.2",
     "lodash": "^4.17.4",
